@@ -1,0 +1,59 @@
+.wow{
+    background-color:rgba(377, 300, 43, .6);
+    height: 50px;
+    width:50px;
+    color:rgb(42, 89, 84);
+    margin:auto;
+   
+}
+
+.cool{
+    background-image: url('https://www.rocksandminerals4u.com/images/gneiss-1.jpg');
+    height:500px;
+    width:500px;
+    background-repeat:3px;
+    background-position:top left;
+    background-size:contain;
+    text-align:center;
+    margin:auto;
+    align-items:center;
+    justify-content:center;
+    font-size:150px;
+    font-family:'Times New Roman', Times, serif;
+    border: width 5px;
+    border-style:dotted;
+    box-shadow: 50px 200px 10 30px rgb(55, 39, 132);
+    text-shadow: 10px 20px 10px blue;
+
+}
+
+.login{
+    height:20px;
+    width:50px;
+    margin:auto;
+    background-color:blue;
+    align-items:center;
+    justify-content:center;
+    border-radius:5px;
+    color:white;
+}
+
+.button{
+    display: flex;
+    height: 100px;
+    width:100px;
+    border-radius:50%;
+    border: width 5px;
+    border-color:black;
+    background-color:red;
+    margin:auto;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    text-shadow: 5px 10px 2px rgb(135, 72, 72);
+    box-shadow: 10px 15px 10px 10px rgb(130, 125, 125)
+}
+
+a::hover{
+
+}
