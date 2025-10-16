@@ -51,9 +51,29 @@
     justify-content:center;
     color:white;
     text-shadow: 5px 10px 2px rgb(135, 72, 72);
-    box-shadow: 10px 15px 10px 10px rgb(130, 125, 125)
+    box-shadow: 10px 15px 10px 10px rgb(130, 125, 125);
+    text-decoration:none;
 }
 
-a::hover{
+.button a{
+    text-decoration:none;
+}
+
+.wild{
+    background-image: url('https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW9uZXl8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000');
+    height:70px;
+    width:100px;
+    margin: 0 auto;
+    padding:10px;
+    color:rgb(173, 224, 45);
+    background-color:rgb(130, 214, 130, .7);
+    text-align:center;
+    align-items: center;
+    justify-content:center;
+    border-radius:10px;
+    display:block;
+    border: 5px solid green;
+    /* border-width:5px; */
 
 }
+
